@@ -136,13 +136,7 @@
             </iframe>
         </section>
         
-<img src="c:\Users\user\Pictures\Screenshots\Screenshot (1).png" usemap="#image-map">
 
-<map name="image-map">
-    <area target="" alt="CEC Fb Page" title="CEC Fb Page" href="https://www.facebook.com/ceccollegeregistrar/" coords="64,244,310,164" shape="rect">
-    <area target="" alt="https://maps.google.com/?q=Cebu+Eastern+College" title="https://maps.google.com/?q=Cebu+Eastern+College" href="https://maps.google.com/?q=Cebu+Eastern+College" coords="585,105,15" shape="circle">
-</map>
-        
         <section id="paragraph">
             <h2>About Me</h2>
             <p>Hi! I am <strong>Neyasser Rey V. Paran</strong>. Welcome to my portfolio. I study at <strong>Cebu Eastern College (CEC)</strong>. I love coding & learning new things. My goal is to become an expert in web development ♥!</p>
