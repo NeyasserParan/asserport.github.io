@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neyasser Rey V. Paran - Portfolio &#128214;</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 1.25;
+            padding: 1.25;
+            background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Light gradient background */
+            color: #121010;
+        }
+
+        header {
+            background-color: #34cddb50; /* Header background color */
+            color: rgb(8, 1, 1);
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #0b2cd4; /* Navigation background color */
+            color: rgb(1, 1, 2);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 1.25;
+            margin: 1.25;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #3498db;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: white; /* Section background color */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #3498db; /* Section heading color */
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        #video iframe,
+        #map iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+
+        #imagemap img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #paragraph p {
+            line-height: 1.6;
+        }
+
+        #emojis ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #emojis li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #2c3e50; /* Footer background color */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio </h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#map">Location</a></li>
+            <li><a href="#imagemap">Interactive Image</a></li>
+            <li><a href="#paragraph">About Me</a></li>
+            <li><a href="#emojis">Emojis</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="video">
+            <h2>Interesting Video</h2>
+            <iframe src="https://www.youtube.com/embed/OZdVqky1G_A" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+        <section id="map">
+            <h2>My University Location</h2>
+            <iframe style="border:0;" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15741.840593059802!2d123.8942215!3d10.2947304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9994a4a5413eb%3A0xe82f6cb19c542f3!2sCebu%20Eastern%20College!5e0!3m2!1sen!2sph!4v1710067200000!5m2!1sen!2sph">
+            </iframe>
+        </section>
+        
+<img src="c:\Users\user\Pictures\Screenshots\Screenshot (1).png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="CEC Fb Page" title="CEC Fb Page" href="https://www.facebook.com/ceccollegeregistrar/" coords="64,244,310,164" shape="rect">
+    <area target="" alt="https://maps.google.com/?q=Cebu+Eastern+College" title="https://maps.google.com/?q=Cebu+Eastern+College" href="https://maps.google.com/?q=Cebu+Eastern+College" coords="585,105,15" shape="circle">
+</map>
+        
+        <section id="paragraph">
+            <h2>About Me</h2>
+            <p>Hi! I am <strong>Neyasser Rey V. Paran</strong>. Welcome to my portfolio. I study at <strong>Cebu Eastern College (CEC)</strong>. I love coding & learning new things. My goal is to become an expert in web development ♥!</p>
+        </section>
+        
+        <section id="emojis">
+            <h2>My Favorite Emojis</h2>
+            <ul>
+                <li>&#128512; - Smiley</li>
+                <li>&#128151; - Heart</li>
+                <li>&#128640; - Rocket</li>
+                <li>&#127881; - Celebration</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Neyasser Rey V. Paran - Portfolio</p>
+    </footer>
+</body>
+</html>
